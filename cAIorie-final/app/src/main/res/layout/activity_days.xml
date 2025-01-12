@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="12dp"
+    android:paddingRight="16dp"
+    android:id="@+id/linearlayout">
+
+    <TextView
+        android:id="@+id/mealPlanHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/daysText"
+        android:textSize="69sp" />
+
+    <Button
+        android:id="@+id/mondayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:background="#5a7e8c"
+        android:text="Monday" />
+
+    <Button
+        android:id="@+id/tuesdayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuesday" />
+
+    <Button
+        android:id="@+id/wednesdayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:background="#5a7e8c"
+        android:text="Wednesday" />
+
+    <Button
+        android:id="@+id/thursdayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thursday" />
+
+    <Button
+        android:id="@+id/fridayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:background="#5a7e8c"
+        android:text="Friday" />
+
+    <Button
+        android:id="@+id/saturdayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saturday" />
+
+    <Button
+        android:id="@+id/sundayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:background="#5a7e8c"
+        android:text="Sunday" />
+
+
+</LinearLayout>

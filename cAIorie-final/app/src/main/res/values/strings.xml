@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">cAIorie</string>
+
+    <string name="exText">Example Text</string>
+
+    <!--strings for days-->
+    <string name="daysText">MEAL PLAN</string>
+    <string name="s"></string>
+
+    <!--strings for home -->
+    <string name="aiResponseText">Never Fear!\nDummy is here to answer all your nutrition questions!</string>
+    <string name="askDummyHint">  Ask Dummy!</string>
+    <string name="sampleQuestionsText">Sample Questions</string>
+    <string name="sendQuestionsText">Send</string>
+    <string name="mealPlanBtText">Meal Plan</string>
+    <string name="mealInBtText">Meal Input</string>
+    <string name="profileText">Profile</string>
+    <string name="textTitle">Sample Questions:\n-What is a calorie?\n-How many calories in an egg?\n
+        -How to lose weight?\n-What is the keto diet?\n (Tap to close window)</string>
+
+
+    <!--strings for meal input-->
+    <string name="enterMealText">Enter Your Meal</string>
+    <string name="mealInDayText">Day:</string>
+    <string name="mealInNumberText">Meal Number:</string>
+    <string name="mealInFoodText">Food:</string>
+    <string name="mealInFoodHint">Enter Food Item</string>
+    <string name="mealInCaloriesText">Calories:</string>
+    <string name="mealInCaloriesHint">Enter Calories </string>
+    <string name="mealInAISggText">AI Suggestion</string>
+    <string name="displayDaysActivityText">Show Weekdays</string>
+    <string name="mealInSaveText">Save</string>
+
+    <!--strings for meal plan-->
+    <string name="mealPlanText">Breakfast: \n\nLunch: \n\nDinner:</string>
+    <string-array name="Days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="Meals">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="mealPlanTitleText">Current Meal Plan</string>
+    <string name="noPlanText">Currently, you have not generated a meal plan.\n\n
+        Generate a meal plan by clicking the generate button below!\n\n
+        If you did not add information to your profile, a plan will be generated using default values.</string>
+
+    <!--strings for profile-->
+    <string name="profileInfoText">Profile Information</string>
+    <string name="nameText">Name:</string>
+    <string name="firstNameIn">Enter Name</string>
+    <string name="ageText">Age:</string>
+    <string name="ageIn">Enter Age</string>
+    <string name="heightText">Height:</string>
+    <string name="heightIn">Enter Height</string>
+    <string name="weightText">Weight:</string>
+    <string name="weightIn">Enter Weight</string>
+    <string name="weightGoalText">Current Weight Goal:</string>
+    <string name="weightGoalIn">Enter Weight Goal</string>
+    <string name="dietaryRestrictionText">Dietary Restrictions:</string>
+    <string name="dietaryRestrictionIn">Enter Dietary Restrictions</string>
+
+    <string name="recommendedIntakeText">Recommended Calorie Intake:</string>
+    <string name="recommendedIntakeIn">Not calculated</string>
+    <string name="homeBtText">Home</string>
+    <string name="calIntakeBtText">Calculate Intake</string>
+
+
+</resources>
